@@ -24,7 +24,7 @@ class Item:
 
         :return: Общая стоимость товара.
         """
-        all_price = f'Общая стоимость {self.name}а {self.price} рублей'
+        all_price = f'{self.name} {self.price}'
         return all_price
 
     def apply_discount(self) -> None:
